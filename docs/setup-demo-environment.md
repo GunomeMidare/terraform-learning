@@ -6,9 +6,18 @@ The goal of this file is to document the setup of deomo setup for using Terrafor
 
 ## References 📝
 - [SAP BTP Trail Environment](https://account.hanatrial.ondemand.com/trial/#/home/trial)
-- [Adding features to a devcontainer.json file](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file)
+- [Getting Started with Terraform on SAP BTP](https://learning.sap.com/courses/getting-started-with-terraform-on-sap-btp)
 
-## Create Code Space 🛠️
+## Prerequisites 🎯
+- You have a Github Account
+- You have an SAP SUSER
 
-### Create standard Terraform Codespace for a Repository
-On GitHub, navigate to the main page of the repository. Click the Code button, then click the Codespaces tab. Click `Create codespace on main`.
+## Create SAP BTP Trial Account 🛠️
+**1.** Navigate to the following link:
+
+  - [SAP BTP Trail Environment](https://account.hanatrial.ondemand.com/trial/#/home/trial)
+
+**2.** Create a SAP BTP Trial Account.
+
+
+## Create SAP BTP Trial Account 🛠️
