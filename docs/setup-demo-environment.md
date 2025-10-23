@@ -20,4 +20,4 @@ The goal of this file is to document the setup of deomo setup for using Terrafor
 **2.** Create a SAP BTP Trial Account.
 
 
-## Create SAP BTP Trial Account 🛠️
+## Create Github Repository & Codespace🛠️
