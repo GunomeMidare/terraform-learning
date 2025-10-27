@@ -23,6 +23,9 @@ The goal of this file is to document the setup of deomo setup for using Terrafor
 ## Create Github Repository & Codespace🛠️
 ### Create a Codespace using an existing devcontainer.json file
 1. Create a file named `devcontainer.json` in a directory named `.devcontainer`.
+
+	<img width="990" height="354" alt="image" src="https://github.com/user-attachments/assets/aab34d9f-0d92-4b26-816c-3e3a928120f6" />
+   
 2. Enter the following code and commit.
 
 ```
