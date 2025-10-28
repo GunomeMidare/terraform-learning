@@ -6,11 +6,12 @@ The goal of this file is to document the update process of a Terraform provider
 
 ## References 📝
 - [Lock and upgrade provider versions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/provider-versioning)
+- [SAP BTP Provider Releases](https://github.com/SAP/terraform-provider-btp/releases)
 
 ## XXXX 🛠️
 
 ## Explore provider.tf
-Open the provider.tf file. Here you will find the terraform block which specifies the required provider version and required Terraform version for this configuration.
+Open the `provider.tf` file. Here you will find the terraform block which specifies the required provider version and required Terraform version for this configuration.
 
 ```terraform
 terraform {
@@ -41,6 +42,13 @@ provider "registry.terraform.io/sap/btp" {
 > - Allows patch version updates within the minor version 1.15.x
 > - Compatible versions: 1.15.0, 1.15.1, 1.15.2, etc.
 > - Blocks: 1.16.x, 1.17.x (major/minor version changes)
+
+## Update the Version Constraint 🛠️
+1. Open your Terraform configuration file (typically `provider.tf`).
+2. Locate the provider "btp" block.
+3. Change the version to the desired release (e.g., ~> 1.17.0) or check the Terraform Registry for the current version.
+
+
 
 ## Upgrade the SAP BTP Provider Version 🛠️
 
