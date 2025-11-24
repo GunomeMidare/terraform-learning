@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_btp"></a> [btp](#requirement\_btp) | ~> 1.15.0 |
+| <a name="requirement_btp"></a> [btp](#requirement\_btp) | ~> 1.17.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_btp"></a> [btp](#provider\_btp) | 1.15.1 |
+| <a name="provider_btp"></a> [btp](#provider\_btp) | 1.17.0 |
 | <a name="provider_random"></a> [random](#provider\_random) | 3.7.2 |
 | <a name="provider_terraform"></a> [terraform](#provider\_terraform) | n/a |
 
