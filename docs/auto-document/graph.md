@@ -10,6 +10,7 @@ Terraform Docs (often referred to as terraform-docs) is a tool used to automatic
 ## Create Terraform Graph Visual 🛠️
 
 ### Create digraph G with Terraform Grapgh
+The terraform graph command generates a visual representation of a configuration or execution plan that you can use to generate charts.
 - [terraform graph command](https://developer.hashicorp.com/terraform/cli/commands/graph)
 
 1. Enter the following command in the terminal:
@@ -20,7 +21,8 @@ terraform graph
 2. Copy the digraph G output.
 
 ### Create visual based on digraph G
-
+The graph output uses the DOT language, which is a machine-readable graph description language which originated in Graphviz. 
+- [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 
 
 Example Output:
