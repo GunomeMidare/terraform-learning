@@ -20,15 +20,6 @@ terraform graph
 ```
 2. Copy the digraph G output.
 
-### Create visual based on digraph G
-The graph output uses the DOT language, which is a machine-readable graph description language which originated in Graphviz. 
-- [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
-1. Paste the output in GraphvizOnline.
-
-<img width="2274" height="896" alt="image" src="https://github.com/user-attachments/assets/feaa027c-991a-49a8-aaef-0faee5deabe7" />
-
-
-
 Example Output:
 ```dot
 digraph G {
@@ -64,3 +55,13 @@ digraph G {
   "module.srvc_baseline.btp_subaccount_subscription.feature_flags_dashboard_app" -> "module.srvc_baseline.btp_subaccount_entitlement.feature_flags_dashboard_app";
 }
 ```
+
+### Create visual based on digraph G
+The graph output uses the DOT language, which is a machine-readable graph description language which originated in Graphviz. 
+- [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
+1. Paste the output in GraphvizOnline.
+
+<img width="2274" height="896" alt="image" src="https://github.com/user-attachments/assets/feaa027c-991a-49a8-aaef-0faee5deabe7" />
+
+
+
