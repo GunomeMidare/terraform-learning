@@ -6,4 +6,5 @@
 ---
 
 ### Terraform Codespaces 📰
+Visit status.github.com to rule out ongoing Codespaces disruptions:
 - [Github Status](https://www.githubstatus.com/)
