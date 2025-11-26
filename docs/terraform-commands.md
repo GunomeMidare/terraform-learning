@@ -36,6 +36,14 @@ The terraform `apply` command executes the actions proposed in a Terraform plan.
 terraform apply "<name>.out"
 ```
 
+#### Terraform State List 🛠️
+The `terraform state list` command lists resources within a Terraform state.
+
+```bash
+terraform state list
+```
+
+
 #### Terraform Destroy 🛠️
 The 'terraform destroy' command deprovisions all objects managed by a Terraform configuration.
 
